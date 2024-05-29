@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="7" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T19:29:20 IST" name="Dummy Flights Booking" finished-at="2024-05-13T19:32:13 IST" duration-ms="172851">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T19:29:20 IST" name="Home_Page_Test_Chrome" finished-at="2024-05-13T19:31:39 IST" duration-ms="139487">
+      <class name="com.qa.flights.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:29:20 IST" name="setUp" finished-at="2024-05-13T19:31:23 IST" duration-ms="123484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getHomePageTitleTest()[pri:1, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:31:24 IST" name="getHomePageTitleTest" finished-at="2024-05-13T19:31:24 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageTitleTest -->
+        <test-method signature="verifyLogoTest()[pri:2, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:31:27 IST" name="verifyLogoTest" finished-at="2024-05-13T19:31:27 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method signature="clickMenuTest()[pri:3, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:31:28 IST" name="clickMenuTest" finished-at="2024-05-13T19:31:29 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuTest -->
+        <test-method signature="clickLoginLinkTest()[pri:4, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:31:30 IST" name="clickLoginLinkTest" finished-at="2024-05-13T19:31:38 IST" duration-ms="8051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.flights.tests.HomePageTest@3bbf841e]" started-at="2024-05-13T19:31:38 IST" name="tearDown" finished-at="2024-05-13T19:31:39 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.flights.tests.HomePageTest -->
+    </test> <!-- Home_Page_Test_Chrome -->
+    <test started-at="2024-05-13T19:29:20 IST" name="Login_Page_Test_Chrome" finished-at="2024-05-13T19:31:54 IST" duration-ms="153955">
+      <class name="com.qa.flights.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:29:20 IST" name="setUp" finished-at="2024-05-13T19:31:23 IST" duration-ms="123557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginPageSetUp()[pri:0, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:31:24 IST" name="LoginPageSetUp" finished-at="2024-05-13T19:31:38 IST" duration-ms="14230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageSetUp -->
+        <test-method signature="getLoginPageTitleTest()[pri:1, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:31:38 IST" name="getLoginPageTitleTest" finished-at="2024-05-13T19:31:38 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageTitleTest -->
+        <test-method signature="verifyForgotPwdLinkTest()[pri:2, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:31:38 IST" name="verifyForgotPwdLinkTest" finished-at="2024-05-13T19:31:39 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdLinkTest -->
+        <test-method signature="LoginToAppTest()[pri:3, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:31:39 IST" name="LoginToAppTest" finished-at="2024-05-13T19:31:41 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.flights.tests.LoginPageTest@4b97c4ad]" started-at="2024-05-13T19:31:50 IST" name="tearDown" finished-at="2024-05-13T19:31:54 IST" duration-ms="3932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.flights.tests.LoginPageTest -->
+    </test> <!-- Login_Page_Test_Chrome -->
+    <test started-at="2024-05-13T19:31:42 IST" name="Itineraries_Page_Test_Chrome" finished-at="2024-05-13T19:32:13 IST" duration-ms="30917">
+      <class name="com.qa.flights.tests.ItinerariesPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:31:42 IST" name="setUp" finished-at="2024-05-13T19:32:10 IST" duration-ms="28204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="itinerariesPageSetUp()[pri:0, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:10 IST" name="itinerariesPageSetUp" finished-at="2024-05-13T19:32:10 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null
+at com.qa.flights.tests.ItinerariesPageTest.itinerariesPageSetUp(ItinerariesPageTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itinerariesPageSetUp -->
+        <test-method signature="getItinerariesTitleTest()[pri:1, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:10 IST" name="getItinerariesTitleTest" finished-at="2024-05-13T19:32:10 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null
+at com.qa.flights.tests.ItinerariesPageTest.itinerariesPageSetUp(ItinerariesPageTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItinerariesTitleTest -->
+        <test-method signature="userInfoDisplayTest()[pri:2, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:11 IST" name="userInfoDisplayTest" finished-at="2024-05-13T19:32:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null
+at com.qa.flights.tests.ItinerariesPageTest.itinerariesPageSetUp(ItinerariesPageTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInfoDisplayTest -->
+        <test-method signature="clickBackTest()[pri:3, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:11 IST" name="clickBackTest" finished-at="2024-05-13T19:32:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null
+at com.qa.flights.tests.ItinerariesPageTest.itinerariesPageSetUp(ItinerariesPageTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackTest -->
+        <test-method signature="verifyBackToHomeTest()[pri:4, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:12 IST" name="verifyBackToHomeTest" finished-at="2024-05-13T19:32:12 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.flights.pages.LoginPage.loginToApp(String, String)" because "this.loginPage" is null
+at com.qa.flights.tests.ItinerariesPageTest.itinerariesPageSetUp(ItinerariesPageTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackToHomeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.flights.tests.ItinerariesPageTest@70972170]" started-at="2024-05-13T19:32:13 IST" name="tearDown" finished-at="2024-05-13T19:32:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.flights.tests.ItinerariesPageTest -->
+    </test> <!-- Itineraries_Page_Test_Chrome -->
+  </suite> <!-- Dummy Flights Booking -->
+</testng-results>

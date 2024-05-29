@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Dummy Flights Booking" thread-count="2" parallel="tests" verbose="3">
+
+    <listeners>
+        <listener
+                class-name="com.qa.flights.testlisteners.ExtentReportListener"/>
+        <listener
+                class-name="com.qa.flights.testlisteners.TestAllureListener"/>
+    </listeners>
+
+    <test name="Home_Page_Test_Chrome">
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="version" value="124"/>
+        <classes>
+            <class name="com.qa.flights.tests.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="Login_Page_Test_Chrome">
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="version" value="124"/>
+        <classes>
+            <class name="com.qa.flights.tests.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Itineraries_Page_Test_Chrome">
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="version" value="124"/>
+        <classes>
+            <class name="com.qa.flights.tests.ItinerariesPageTest"/>
+        </classes>
+    </test>
+
+
+</suite>

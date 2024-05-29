@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Dummy Flights Booking]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.flights.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.qa.flights.testlisteners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Itineraries_Page_Test_Chrome(failed)" verbose="3">
+    <parameter name="version" value="123"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.flights.tests.ItinerariesPageTest">
+        <methods>
+          <include name="clickBackTest"/>
+          <include name="setUp"/>
+          <include name="userInfoDisplayTest"/>
+          <include name="verifyBackToHomeTest"/>
+          <include name="tearDown"/>
+          <include name="getItinerariesTitleTest"/>
+          <include name="itinerariesPageSetUp"/>
+        </methods>
+      </class> <!-- com.qa.flights.tests.ItinerariesPageTest -->
+    </classes>
+  </test> <!-- Itineraries_Page_Test_Chrome(failed) -->
+</suite> <!-- Failed suite [Dummy Flights Booking] -->
